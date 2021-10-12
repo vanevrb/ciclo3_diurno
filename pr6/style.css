@@ -1,0 +1,81 @@
+/* Comportamiento de Text Align */
+.comp_text_align .elm_center {
+    text-align: center;
+}
+
+.comp_text_align .elm_right {
+    text-align: right;
+    color: cyan;
+}
+.comp_text_align .elm_right img {
+    height: 80px;
+    width: auto;
+}
+
+.comp_text_align .elm_left {
+    text-align: left;
+}
+
+.comp_text_align .elm_left img {
+    height: 80px;
+    width: auto;
+}
+.comp_text_align .elm_jus {
+    text-align: justify;
+}
+
+/* Comportamiento del Float */
+
+.comp_float .elm1 {
+    background-color: red;
+    float: left;
+    /* float: right; */
+    width: 50%;
+}
+
+.comp_float  .elm2 {
+    background-color: blueviolet;
+    float: right;
+/*     float: left; */
+    width: 50%;
+}
+
+/* Comportamiento del float con 3 o mas elementos */
+.comp_float_3 .elm1 {
+    background-color: bisque;
+    float: left;
+    width: 33.3%;
+}
+
+.comp_float_3 .elm2 {
+    background-color: aquamarine;
+    float: left;
+    width: 33.3%;
+}
+
+.comp_float_3 .elm3 {
+    background-color: aqua;
+    float: left;
+    width: 33.3%;
+}
+/* Float 3 --- Diferente css */
+.comp_float_3_or .elm {
+    float: left;
+    width: 33.3%;
+}
+.comp_float_3_or .elm1 {background-color: #f52929;}
+.comp_float_3_or .elm2 {background-color: blue;}
+.comp_float_3_or .elm3 {background-color: cadetblue;}
+
+/* tabla */
+table th {
+    background-color: aquamarine;
+    width: 100%;
+    font-family: fantasy;
+    text-align: left;
+    color: azure;
+}
+
+table tr {
+    background-color: bisque;
+}

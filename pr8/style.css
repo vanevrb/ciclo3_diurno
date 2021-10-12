@@ -1,0 +1,65 @@
+html{
+    heigth:100%;
+    overflow:hidden;
+  }
+  body{
+    height:100%;
+    background-color:#787878;
+    margin:0;
+    transform-style:preserve-3d;
+    perpective:800;
+    perspective-origin:center-top;
+  }
+  .cube {
+    position: absolute;
+    /*   background-color:#00FFFF;
+    height:20px;
+    width:20px; */
+    transform-style:preserve-3d;
+    left:50%;
+    top:50%;
+    perspective: 800;
+    margin-top: 81px;
+    transform: rotateX(348deg) rotateY(352deg);
+  }
+  .cube div{
+    content:" ";
+    width:60px;
+    height:60px;
+    /* background-color:red; */
+    position:absolute;
+    top:50%;
+    left:50%;
+    border:1px solid black;
+  }
+  .cube:nth-child(1){
+  transform: rotateY(329deg) rotateX(193deg);  
+}
+  .cube div:nth-child(1){
+    transform: rotateX(
+  90deg) translate3d(0, 0, -30px);
+    background-color:green;
+  }
+  .cube div:nth-child(2){
+      transform: rotateY(
+ -90deg) translate3d(0, 0, -30px);
+      background-color:yellow;
+  }
+  .cube div:nth-child(3) {
+    transform: rotateY( 
+-90deg) translate3d(0, 0, -30px);
+    background-color: blue;
+}
+  .cube div:nth-child(4) {
+    transform: rotateX( 
+-90deg) translate3d(0, 0, -30px);
+    background-color: purple;
+}
+  .cube div:nth-child(5) {
+    transform: translate3d(0, 0, -30px);
+    background-color: cyan;
+}
+  .cube div:nth-child(6) {
+    transform: translate3d(0, 0, -250px);
+    background-color: cyan;
+}

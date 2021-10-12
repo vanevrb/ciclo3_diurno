@@ -1,0 +1,37 @@
+header {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+section {
+    background-color: antiquewhite;
+}
+
+
+nav {
+    background-color: #866464;
+    padding: 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+article {
+    background-color: pink;
+    padding: 20px;
+}
